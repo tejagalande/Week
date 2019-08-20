@@ -11,7 +11,8 @@
         android:id="@+id/edtAnyName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Any Name"/>
+        android:hint="Any Name"
+        android:textSize="50px"/>
 
     <Button
         android:id="@+id/btnOK"
@@ -19,4 +20,15 @@
         android:layout_height="wrap_content"
         android:text="OK"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi Tejas"
+        android:paddingLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi Tejas"
+        android:textSize="50sp"/>
 </LinearLayout>
